@@ -14,6 +14,7 @@ Python版本:3.6.5<br>
 数据库:sqlite3<br>
 
 ## 效果部分展示
+Django里面含有许多内置模块提供登陆等功能，本微博基于内置模块实现这些功能较多
 ### 1、登陆页面后的展示  
 ![image](https://github.com/SaltFishGuy/picture/blob/master/login_blog.png)
 ### 2、文章展示
