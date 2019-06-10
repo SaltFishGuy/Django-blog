@@ -14,3 +14,12 @@ Python版本:3.6.5<br>
 数据库:sqlite3<br>
 
 ## 效果部分展示
+### 1、登陆页面后的展示  
+![image](https://github.com/SaltFishGuy/picture/blob/master/login_blog.png)
+### 2、文章展示
+![image](https://github.com/SaltFishGuy/picture/blob/master/article.png)<br>
+![image](https://github.com/SaltFishGuy/picture/blob/master/article_write.png)<br>
+### 3、文章细节展示
+![image](https://github.com/SaltFishGuy/picture/blob/master/lanmu.png)<br>
+### 4、功能展示
+![image](https://github.com/SaltFishGuy/picture/blob/master/blog_message.png)
