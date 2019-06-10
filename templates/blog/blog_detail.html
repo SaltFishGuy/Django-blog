@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} blog titles {% endblock %}
+
+{% block content %}
+<div class="row text-center vertical-middlw-sm">
+    <h1>{{article.title}}</h1>
+</div>
+<div class="row">
+    <div class="col-xs-12 col-md-8">
+        <p class="text-center">
+            <span>{{article.author.username}}</span>
+            <span style="margin-left:20px">{{pub}}</span>
+        </p>
+        <div>
+            {{article.body}}
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-4">
+        <img width="200px"
+             src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1555773353910&di=cb9e9bf32fd971d883d3581a7f3d1093&imgtype=0&src=http%3A%2F%2Fwww.dzwww.com%2Fnvxing%2Fss%2F201003%2FW020100303582177215560.jpg">
+    </div>
+</div>
+{% endblock %}
